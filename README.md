@@ -5,11 +5,11 @@ Contains changes that has to be done in Build files outside the AR Library - And
 
 ## Contains:
 * Changes in the following files to make AR functional in Android mode.<br />
-Under `android-mode` Module following shows the directory traversal: <br />
-** `src -> processing.mode.android -> AndroidBuild.java` <br />
-** `src -> processing.mode.android -> AndroidEditor.java` <br />
-** `src -> processing.mode.android -> Commander.java` <br />
-** `src -> processing.mode.android -> Manifest.java` <br />
+Under `android-mode` Module, following shows the directory traversal: <br />
+    * `src -> processing.mode.android -> AndroidBuild.java` <br />
+    * `src -> processing.mode.android -> AndroidEditor.java` <br />
+    * `src -> processing.mode.android -> Commander.java` <br />
+    * `src -> processing.mode.android -> Manifest.java` <br />
 * Created standard templates for sketches that relay on <b>AR</b> under the `templates` Directory.<br />
 * Changes in the Module level `build.gradle` and `build.xml` files to get it up and running in the android-mode
 
