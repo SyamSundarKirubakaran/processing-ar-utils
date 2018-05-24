@@ -2,7 +2,10 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="">
+    package=""
+    android:versionCode="1"
+    android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="@@min_sdk@@" />
   <uses-permission android:name="android.permission.CAMERA"/>
   <uses-feature android:name="android.hardware.camera.ar" android:required="true"/>
   <uses-feature android:glEsVersion="0x00020000" android:required="true" />
@@ -10,14 +13,14 @@
       android:allowBackup="false"
       android:icon="@drawable/icon"
       android:label=""
-//      android:theme="@style/AppTheme"
+      android:theme="@style/ArActivityTheme"
       android:usesCleartextTraffic="false"
       tools:ignore="GoogleAppIndexingWarning">
     <activity
-        android:name="com.google.ar.core.examples.java.helloar.HelloArActivity"
+        android:name=".MainActivity"
         android:configChanges="orientation|screenSize"
         android:exported="true"
-//        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
         android:screenOrientation="locked">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
