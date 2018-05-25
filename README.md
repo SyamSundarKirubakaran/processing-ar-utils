@@ -14,12 +14,10 @@ Under `android-mode` Module, following shows the directory traversal: <br />
 * Changes in the Module level `build.gradle` and `build.xml` files to get it up and running in the android-mode
 
 ## TODO:
-* Refining permission in `Manifest.java` for AR. <br />
-* Defining <b>Themes</b> in `Manifest.xml.tmpl`. <br />
-* Incomplete `ARActivity.java.tmpl`.<br />
+* Tentative `ARActivity.java.tmpl`.<br />
 <b>NOTE:</b> Can be designed only after `ar.jar` is ready and functional. <br />
 
 ## Working:
 <p align="center">
-  <img src="imgs/sk_2.gif">
+  <img src="imgs/a1.png">
 </p>
