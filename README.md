@@ -14,8 +14,7 @@ Under `android-mode` Module, following shows the directory traversal: <br />
 * Changes in the Module level `build.gradle` and `build.xml` files to get it up and running in the android-mode
 
 ## TODO:
-* Tentative `ARActivity.java.tmpl`.<br />
-<b>NOTE:</b> Can be designed only after `ar.jar` is ready and functional. <br />
+* Add the line `static final String AR = "processing.ar.PGraphicsARView";` in `PConstants.java` which lies under `core -> src -> processing -> core ->PConstants.java`, make sure to add it under the comment line `// built-in rendering options`.<br />
 
 ## Working:
 <p align="center">
